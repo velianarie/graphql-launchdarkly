@@ -13,6 +13,8 @@ type Query {
 }
 ```
 
+This isn't ideal especially when working with a published public API.
+
 See serverSimple.js
 
 ## With LaunchDarkly - Feature Toggle Management
@@ -23,6 +25,9 @@ type Query {
   positions: [String]
 }
 ```
-[See LaunchDarkly configuration here](https://raw.githubusercontent.com/velianarie/graphql-launchdarkly/master/LaunchDarklyPositionHive.png)
 
 See server.js
+
+### Blog
+I blogged about this for more background why I did this in the first place:
+http://velianarie.blogspot.com/2018/10/feature-toggling-graphql-service-with.html
