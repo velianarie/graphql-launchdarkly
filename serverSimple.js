@@ -11,7 +11,7 @@ var getSql = function() {
 };
 
 var getPositions = function(args) {
-  if (args.featureOn) {
+  if (args.useHive) {
     return getHive();
   }
   return getSql();
@@ -19,7 +19,7 @@ var getPositions = function(args) {
 
 var schema = buildSchema(`
   type Query {
-    positions(featureOn: Boolean!): [String]
+    positions(useHive: Boolean!): [String]
   }
 `);
 
