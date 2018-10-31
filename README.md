@@ -23,6 +23,6 @@ type Query {
   positions: [String]
 }
 ```
-[LaunchDarklyConfiguration](../blob/master/LaunchDarklyPositionHive.png?raw=true)
+[LaunchDarklyConfiguration](../master/LaunchDarklyPositionHive.png?raw=true)
 
 See server.js
