@@ -23,6 +23,6 @@ type Query {
   positions: [String]
 }
 ```
-[LaunchDarklyConfiguration](../master/LaunchDarklyPositionHive.png?raw=true)
+[LaunchDarklyConfiguration](https://raw.githubusercontent.com/velianarie/graphql-launchdarkly/master/LaunchDarklyPositionHive.png)
 
 See server.js
